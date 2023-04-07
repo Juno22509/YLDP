@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "your_lords_dampfpunk:items/steel_shovel"
+  }
+}

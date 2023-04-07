@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:andesite"
+    },
+    "2": {
+      "item": "minecraft:andesite"
+    },
+    "3": {
+      "item": "minecraft:andesite"
+    },
+    "4": {
+      "item": "minecraft:andesite"
+    },
+    "5": {
+      "item": "minecraft:andesite"
+    }
+  },
+  "result": {
+    "item": "your_lords_dampfpunk:plate_mold",
+    "count": 3
+  }
+}

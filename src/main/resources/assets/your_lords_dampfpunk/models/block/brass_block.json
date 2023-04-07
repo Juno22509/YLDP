@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "your_lords_dampfpunk:blocks/brassblocktexture",
+    "up": "your_lords_dampfpunk:blocks/brassblocktexture",
+    "north": "your_lords_dampfpunk:blocks/brassblocktexture",
+    "east": "your_lords_dampfpunk:blocks/brassblocktexture",
+    "south": "your_lords_dampfpunk:blocks/brassblocktexture",
+    "west": "your_lords_dampfpunk:blocks/brassblocktexture",
+    "particle": "your_lords_dampfpunk:blocks/brassblocktexture"
+  },
+  "render_type": "solid"
+}

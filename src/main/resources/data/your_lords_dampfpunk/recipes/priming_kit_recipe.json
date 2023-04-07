@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "your_lords_dampfpunk:steel_projectile"
+    },
+    "3": {
+      "item": "your_lords_dampfpunk:steel_plate"
+    },
+    "4": {
+      "item": "minecraft:gunpowder"
+    },
+    "5": {
+      "item": "minecraft:gunpowder"
+    },
+    "7": {
+      "item": "minecraft:gunpowder"
+    },
+    "8": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "your_lords_dampfpunk:priming_kit",
+    "count": 1
+  }
+}

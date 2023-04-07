@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "your_lords_dampfpunk:blocks/tinoretexture",
+    "particle": "your_lords_dampfpunk:blocks/tinoretexture"
+  },
+  "render_type": "solid"
+}

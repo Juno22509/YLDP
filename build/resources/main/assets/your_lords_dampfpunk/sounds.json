@@ -1,0 +1,11 @@
+{
+  "boltersound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "your_lords_dampfpunk:boltersoundogg",
+        "stream": false
+      }
+    ]
+  }
+}

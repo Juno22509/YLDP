@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "your_lords_dampfpunk:blocks/steelblocktexture",
+    "up": "your_lords_dampfpunk:blocks/steelblocktexture",
+    "north": "your_lords_dampfpunk:blocks/steelblocktexture",
+    "east": "your_lords_dampfpunk:blocks/steelblocktexture",
+    "south": "your_lords_dampfpunk:blocks/steelblocktexture",
+    "west": "your_lords_dampfpunk:blocks/steelblocktexture",
+    "particle": "your_lords_dampfpunk:blocks/steelblocktexture"
+  },
+  "render_type": "solid"
+}

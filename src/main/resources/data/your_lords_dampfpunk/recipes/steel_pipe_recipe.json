@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "   ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "your_lords_dampfpunk:steel_plate"
+    },
+    "1": {
+      "item": "your_lords_dampfpunk:steel_plate"
+    },
+    "2": {
+      "item": "your_lords_dampfpunk:steel_plate"
+    },
+    "6": {
+      "item": "your_lords_dampfpunk:steel_plate"
+    },
+    "7": {
+      "item": "your_lords_dampfpunk:steel_plate"
+    },
+    "8": {
+      "item": "your_lords_dampfpunk:steel_plate"
+    }
+  },
+  "result": {
+    "item": "your_lords_dampfpunk:steel_pipe",
+    "count": 2
+  }
+}

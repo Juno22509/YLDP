@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "steelpike3dv2texture"
+      },
+      "name": "default"
+    }
+  }
+}

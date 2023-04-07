@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "your_lords_dampfpunk:steel_pipe"
+    },
+    "2": {
+      "item": "your_lords_dampfpunk:steel_pipe"
+    },
+    "4": {
+      "item": "your_lords_dampfpunk:wooden_handguard"
+    },
+    "5": {
+      "item": "your_lords_dampfpunk:steel_pipe"
+    },
+    "6": {
+      "item": "your_lords_dampfpunk:wooden_handguard"
+    }
+  },
+  "result": {
+    "item": "your_lords_dampfpunk:steel_pike",
+    "count": 1
+  }
+}

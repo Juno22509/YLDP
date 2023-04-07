@@ -1,0 +1,7 @@
+{
+  "parent": "your_lords_dampfpunk:custom/bolter",
+  "textures": {
+    "0": "your_lords_dampfpunk:blocks/bolter3dtexture",
+    "particle": "your_lords_dampfpunk:items/boltertexture"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "your_lords_dampfpunk:custom/steelpike",
+  "textures": {
+    "1": "your_lords_dampfpunk:blocks/steelpike3dv2texture",
+    "particle": "your_lords_dampfpunk:items/steelpiketexture"
+  }
+}

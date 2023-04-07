@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "your_lords_dampfpunk:blocks/tinkertablebottom",
+    "up": "your_lords_dampfpunk:blocks/tinkertabletop",
+    "north": "your_lords_dampfpunk:blocks/tinkertablefront",
+    "east": "your_lords_dampfpunk:blocks/tinkertableside",
+    "south": "your_lords_dampfpunk:blocks/tinkertableback",
+    "west": "your_lords_dampfpunk:blocks/tinkertableside",
+    "particle": "your_lords_dampfpunk:blocks/tinkertablebottom"
+  },
+  "render_type": "solid"
+}

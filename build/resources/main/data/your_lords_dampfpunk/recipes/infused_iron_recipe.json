@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "your_lords_dampfpunk:charcoal_lump"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "your_lords_dampfpunk:infused_iron",
+    "count": 1
+  }
+}

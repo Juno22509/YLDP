@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "your_lords_dampfpunk:tin_ore",
+  "step": "underground_ores"
+}

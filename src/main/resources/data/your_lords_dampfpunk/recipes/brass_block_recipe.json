@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "your_lords_dampfpunk:brass_ingot"
+    },
+    "1": {
+      "item": "your_lords_dampfpunk:brass_ingot"
+    },
+    "2": {
+      "item": "your_lords_dampfpunk:brass_ingot"
+    },
+    "3": {
+      "item": "your_lords_dampfpunk:brass_ingot"
+    }
+  },
+  "result": {
+    "item": "your_lords_dampfpunk:brass_block",
+    "count": 1
+  }
+}

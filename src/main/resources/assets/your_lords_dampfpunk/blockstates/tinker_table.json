@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "your_lords_dampfpunk:block/tinker_table"
+    },
+    "facing=east": {
+      "model": "your_lords_dampfpunk:block/tinker_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "your_lords_dampfpunk:block/tinker_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "your_lords_dampfpunk:block/tinker_table",
+      "y": 270
+    }
+  }
+}

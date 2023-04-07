@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "your_lords_dampfpunk:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "your_lords_dampfpunk:steel_projectile",
+    "count": 2
+  }
+}

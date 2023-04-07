@@ -1,0 +1,906 @@
+{
+  "mod_elements": [
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_ingot.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_block.json",
+          "src/main/resources/assets/your_lords_dampfpunk/models/block/steel_block.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/block/SteelBlockBlock.java",
+          "src/main/resources/assets/your_lords_dampfpunk/blockstates/steel_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CharcoalLump",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charcoal_lump",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/CharcoalLumpItem.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/charcoal_lump.json"
+        ]
+      }
+    },
+    {
+      "name": "CharcoalLumpFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charcoal_lump_fuel",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CharcoalLumpRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charcoal_lump_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/charcoal_lump_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InfusedIron",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infused_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/infused_iron.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/InfusedIronItem.java"
+        ]
+      }
+    },
+    {
+      "name": "InfusedIronRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infused_iron_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/infused_iron_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelPickaxeItem.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_axe.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_sword.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_shovel.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_hoe.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TinkerTable",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinker_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/block/TinkerTableBlock.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/block/tinker_table.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/block/entity/TinkerTableBlockEntity.java",
+          "src/main/resources/assets/your_lords_dampfpunk/blockstates/tinker_table.json",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/tinker_table.json"
+        ]
+      }
+    },
+    {
+      "name": "TinkerTableRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinker_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/tinker_table_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPlate",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_plate.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelPlateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PlateMold",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate_mold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/plate_mold.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/PlateMoldItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TinkerProcedure",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinker_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/procedures/TinkerProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TinkerInterface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinker_interface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/network/TinkerInterfaceButtonMessage.java",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/world/inventory/TinkerInterfaceMenu.java",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/client/gui/TinkerInterfaceScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenTinkerUI",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_tinker_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/procedures/OpenTinkerUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlateMoldRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate_mold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/plate_mold_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/tin_ingot.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/TinIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/tin_ore.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/world/features/ores/TinOreFeature.java",
+          "src/main/resources/assets/your_lords_dampfpunk/blockstates/tin_ore.json",
+          "src/main/resources/data/your_lords_dampfpunk/forge/biome_modifier/tin_ore_biome_modifier.json",
+          "src/main/resources/assets/your_lords_dampfpunk/models/block/tin_ore.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/block/TinOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RawTin",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/raw_tin.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/RawTinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RawTinSmelting",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/raw_tin_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "TinBlock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/blockstates/tin_block.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/block/TinBlockBlock.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/tin_block.json",
+          "src/main/resources/assets/your_lords_dampfpunk/models/block/tin_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BrassMix",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_mix",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/brass_mix.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/BrassMixItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BrassMixRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_mix_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/brass_mix_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BrassIngot",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/BrassIngotItem.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/brass_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "BrassMixSmelting",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_mix_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/brass_mix_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "BrassBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/blockstates/brass_block.json",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/brass_block.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/block/BrassBlockBlock.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/block/brass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPipe",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelPipeItem.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_pipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPipeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pipe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_pipe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPike",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pike",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_pike.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelPikeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WoodenHandguard",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_handguard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/wooden_handguard.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/WoodenHandguardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WoodenHandguardRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_handguard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/wooden_handguard_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPikeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pike_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_pike_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BrassBlockRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/brass_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BulletCasingMold",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_casing_mold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/BulletCasingMoldItem.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/bullet_casing_mold.json"
+        ]
+      }
+    },
+    {
+      "name": "BulletCasing",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/bullet_casing.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/BulletCasingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BulletCasingMoldRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_casing_mold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/bullet_casing_mold_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimingKit",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "priming_kit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/PrimingKitItem.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/priming_kit.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelProjectile",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SteelProjectileItem.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/steel_projectile.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelProjectileRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_projectile_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/steel_projectile_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimingKitRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "priming_kit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/your_lords_dampfpunk/recipes/priming_kit_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BolterBullet",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bolter_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/BolterBulletItem.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/bolter_bullet.json"
+        ]
+      }
+    },
+    {
+      "name": "BolterRangedItemUsed",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bolter_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/procedures/BolterRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bolter",
+      "type": "rangeditem",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bolter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/entity/BolterEntity.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/bolter.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/BolterItem.java",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/client/renderer/BolterRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulBlood",
+      "type": "fluid",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/fluid/types/SoulBloodFluidType.java",
+          "src/main/resources/assets/your_lords_dampfpunk/blockstates/soul_blood.json",
+          "src/main/resources/assets/your_lords_dampfpunk/models/item/soul_blood_bucket.json",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/fluid/SoulBloodFluid.java",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/block/SoulBloodBlock.java",
+          "src/main/java/net/mcreator/yourlordsdampfpunk/item/SoulBloodItem.java",
+          "src/main/resources/assets/your_lords_dampfpunk/models/block/soul_blood.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulBloodMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_blood_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yourlordsdampfpunk/procedures/SoulBloodMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "boltersound",
+      "files": [
+        "boltersoundogg"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.your_lords_dampfpunk.soul_blood_bucket": "Soul Blood Bucket",
+      "item.your_lords_dampfpunk.steel_hoe": "Steel Hoe",
+      "item.your_lords_dampfpunk.charcoal_lump": "Charcoal Lump",
+      "item.your_lords_dampfpunk.steel_projectile": "Steel Projectile",
+      "item.your_lords_dampfpunk.bolter": "Bolter",
+      "item.your_lords_dampfpunk.tin_ingot": "Tin",
+      "block.your_lords_dampfpunk.steel_block": "Steel Block",
+      "item.your_lords_dampfpunk.bullet_casing_mold": "Bullet Casing Mold",
+      "item.your_lords_dampfpunk.steel_sword": "Steel Sword",
+      "fluid.your_lords_dampfpunk.soul_blood": "Soul Blood",
+      "item.your_lords_dampfpunk.priming_kit": "Priming Kit",
+      "item.your_lords_dampfpunk.steel_pike": "Steel Pike",
+      "item.your_lords_dampfpunk.bullet_casing": "Bullet Casing",
+      "block.your_lords_dampfpunk.soul_blood": "Soul Blood",
+      "block.your_lords_dampfpunk.tin_ore": "Tin Ore",
+      "item.your_lords_dampfpunk.brass_mix": "Brass Mix",
+      "item.your_lords_dampfpunk.steel_shovel": "Steel Shovel",
+      "item.your_lords_dampfpunk.infused_iron": "Infused Iron",
+      "block.your_lords_dampfpunk.tin_block": "Tin Block",
+      "item.your_lords_dampfpunk.raw_tin": "Raw Tin",
+      "block.your_lords_dampfpunk.tinker_table": "Tinker Table",
+      "item.your_lords_dampfpunk.wooden_handguard": "Wooden Handguard",
+      "item.your_lords_dampfpunk.steel_ingot": "Steel Ingot",
+      "subtitles.boltersound": "",
+      "gui.your_lords_dampfpunk.tinker_interface.label_tinkering": "Tinkering",
+      "block.your_lords_dampfpunk.brass_block": "Brass Block",
+      "item.your_lords_dampfpunk.steel_pipe": "Steel Pipe",
+      "item.your_lords_dampfpunk.plate_mold": "Plate Mold",
+      "gui.your_lords_dampfpunk.tinker_interface.button_tinker": "Tinker",
+      "item.your_lords_dampfpunk.steel_axe": "Steel Axe",
+      "item.your_lords_dampfpunk.steel_pickaxe": "Steel Pickaxe",
+      "item.your_lords_dampfpunk.bolter_bullet": "Bolter Bullet",
+      "item.your_lords_dampfpunk.steel_plate": "Steel Plate",
+      "item.your_lords_dampfpunk.brass_ingot": "Brass Ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "your_lords_dampfpunk",
+    "modName": "Your Lords Dampfpunk",
+    "version": "1.0.0",
+    "author": "Fabian, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.yourlordsdampfpunk",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
